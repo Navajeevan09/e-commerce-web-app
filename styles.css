@@ -1,0 +1,188 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100vh;
+}
+
+/* H1 styles */
+h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem
+}
+
+/* logo div*/
+.logo-img {
+    margin-right: auto;
+}
+
+/* nav bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+/* nav links */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+/* Main Section */
+/* Hero section */
+#hero {
+    background-color: #ff6347;
+    padding: 4rem 0;
+}
+#hero-container h1 {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+#hero-container p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+#hero-container small{
+    color: white;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #434343;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: #de391c;
+}
+
+.offer-text{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 0.04em 0.2em;
+    border-radius: 5px;
+    background-color: #de391c;
+}
+
+/* Shop Category section */
+#shop-category {
+    background-color: #cecece;
+    padding: 2rem;
+}
+
+/* #category-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.category{
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+} */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.category {
+    margin: 2rem;
+    padding: 1.5rem 0.8rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 8px 5px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.category img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category p{
+    padding-top: 1.5rem;
+}
+
+#testimonials-container{
+    background-color: #333;
+    color: #fff;
+}
+
+#testimonials-container h2 {
+    color: #fff;
+}
+
+.testimonial {
+    margin: 2rem;
+    padding: 1.5rem 0.8rem;
+    border-radius: 8px;
+    background-color: #464444;
+    box-shadow: 8px 5px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial span{
+    font-weight: bold;
+    color: #ff6347;
+}
+
+
+
+footer p{
+    text-align: center;
+    padding : 1rem;
+}
+
+/* #test {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* debug  */
+ /* div {
+    border: 2px solid rgb(80, 30, 230);
+} */
